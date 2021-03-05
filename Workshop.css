@@ -1,0 +1,196 @@
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease 1s ;
+    position: absolute;
+}
+
+body {
+    background-color: rgb(255, 235, 235);
+}
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.base {
+width: 1250px;
+height: 550px;
+background-color: chartreuse;
+top: 100px;
+left: 100px;
+-webkit-box-shadow: -3px 17px 23px -6px #000000; 
+box-shadow: -3px 17px 23px -6px #000000;
+}
+
+.speaker{
+    width: 600px;
+    height: 510px;
+    background-color: rgb(179, 184, 184);
+    top: 120px;
+    left: 120px;
+    filter: blur(20px)
+}
+
+.screen{
+    width: 590px;
+    height: 150px;
+    background: rgb(102,102,102);
+    background: linear-gradient(180deg, rgba(102,102,102,1) 0%, rgba(198,198,198,1) 51%, rgba(102,102,102,1) 100%);;
+    top: 120px;
+    left: 740px;
+    border: 5px solid red;
+}
+
+.feature{
+    width: 560px;
+    height: 10px;
+    top: 250px;
+    left: 760px;
+    background: rgb(0, 0, 0);
+    transform: skew(30deg);
+}
+.slider{
+    width: 3px;
+    height: 30px;
+    top: 230px;
+    left: 760px;
+    background: rgb(0, 0, 0);
+    transform: skew(30deg);
+    animation: animation-two 2s infinite alternate;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000; 
+box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000;
+}
+
+@keyframes animation-two {
+    from {
+    left: 760;
+    } to {
+    left: 1320px;
+    }
+    }
+
+.dial{
+    width: 250px;
+    height: 250px;
+    background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(164,164,164,1) 51%, rgba(4,4,4,1) 93%);;
+    top: 350px;
+    left: 920px;
+    border-radius: 50%;
+}
+
+.handle{
+    width: 30px;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+    top: 400px;
+    left: 1030px;
+    animation: animation-one 5s infinite alternate; 
+    
+}
+
+.button1{
+    width: 50px;
+    height: 50px;
+    top: 350px;
+    left: 870px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000; 
+box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000;
+}
+
+.button2{
+    width: 50px;
+    height: 50px;
+    top: 450px;
+    left: 830px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000; 
+box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000;
+}
+
+.button3{
+    width: 50px;
+    height: 50px;
+    top: 550px;
+    left: 870px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000; 
+box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000;
+}
+
+.button4{
+    width: 50px;
+    height: 50px;
+    top: 350px;
+    left: 1170px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000; 
+box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000;
+}
+
+.button5{
+    width: 50px;
+    height: 50px;
+    top: 450px;
+    left: 1210px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000; 
+box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000;
+}
+
+.button6{
+    width: 50px;
+    height: 50px;
+    top: 550px;
+    left: 1170px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000; 
+box-shadow: 0px 10px 13px -7px #000000, -5px 12px 10px -30px #000000;
+}
+
+.button1:hover{
+    background-color: rgb(219, 197, 197);
+    filter: blur(20px)
+}
+
+.button2:hover{
+    background-color: rgb(219, 197, 197);
+    filter: blur(20px)
+}
+
+.button3:hover{
+    background-color: rgb(219, 197, 197);
+    filter: blur(20px)
+}
+
+.button4:hover{
+    background-color: rgb(219, 197, 197);
+    transform: scale(1.3);
+}
+
+.button5:hover{
+    background-color: rgb(219, 197, 197);
+    transform: scale(1.3);
+}
+
+.button6:hover{
+    background-color: rgb(219, 197, 197);
+    transform: scale(1.3);
+}
+
+
+@keyframes animation-one {
+from {
+transform: rotate(0deg);
+} to {
+transform: rotate(360deg);
+}
+}
